@@ -261,7 +261,7 @@ KEYMAPS(
 
   [FUNCTION] = KEYMAP_STACKED
   (___,      Key_F1,          Key_F2,        Key_F3,        Key_F4,        Key_F5, Key_CapsLock,
-   Key_Tab,  ___,             Key_mouseBtnL, Key_mouseUp,   Key_mouseBtnR, ___,    ___,
+   Key_Tab,  ___,             Key_mouseBtnR, Key_mouseUp,   Key_mouseBtnL, ___,    ___,
    Key_Home, ___,             Key_mouseL,    Key_mouseDn,   Key_mouseR,    ___,
    Key_End,  Key_PrintScreen, Key_Insert,    Key_mouseBtnM, ___,           ___,    ___,
 
