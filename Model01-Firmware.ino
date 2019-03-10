@@ -3,9 +3,8 @@
 // See "LICENSE" for license details
 
 #ifndef BUILD_INFORMATION
-#define BUILD_INFORMATION "locally built"
+#define BUILD_INFORMATION "locally built by angelix"
 #endif
-
 
 /**
  * These #include directives pull in the Kaleidoscope firmware core,
@@ -260,18 +259,20 @@ KEYMAPS(
    ___, ___, ___, ___,
    ___),
 
-  [FUNCTION] =  KEYMAP_STACKED
-  (___,      Key_F1,           Key_F2,      Key_F3,     Key_F4,        Key_F5,           Key_CapsLock,
-   Key_Tab,  ___,              Key_mouseUp, ___,        Key_mouseBtnR, Key_mouseWarpEnd, Key_mouseWarpNE,
-   Key_Home, Key_mouseL,       Key_mouseDn, Key_mouseR, Key_mouseBtnL, Key_mouseWarpNW,
-   Key_End,  Key_PrintScreen,  Key_Insert,  ___,        Key_mouseBtnM, Key_mouseWarpSW,  Key_mouseWarpSE,
+  [FUNCTION] = KEYMAP_STACKED
+  (___,      Key_F1,          Key_F2,        Key_F3,        Key_F4,        Key_F5, Key_CapsLock,
+   Key_Tab,  ___,             Key_mouseBtnL, Key_mouseUp,   Key_mouseBtnR, ___,    ___,
+   Key_Home, ___,             Key_mouseL,    Key_mouseDn,   Key_mouseR,    ___,
+   Key_End,  Key_PrintScreen, Key_Insert,    Key_mouseBtnM, ___,           ___,    ___,
+
    ___, Key_Delete, ___, ___,
    ___,
 
-   Consumer_ScanPreviousTrack, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
-   Consumer_PlaySlashPause,    Consumer_ScanNextTrack, Key_LeftCurlyBracket,     Key_RightCurlyBracket,    Key_LeftBracket, Key_RightBracket, Key_F12,
-                               Key_LeftArrow,          Key_DownArrow,            Key_UpArrow,              Key_RightArrow,  ___,              ___,
-   Key_PcApplication,          Consumer_Mute,          Consumer_VolumeDecrement, Consumer_VolumeIncrement, ___,             Key_Backslash,    Key_Pipe,
+   Consumer_ScanPreviousTrack, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,              Key_F11,
+   Consumer_PlaySlashPause,    Consumer_ScanNextTrack, ___,                      Key_UpArrow,              Key_LeftBracket, Key_RightBracket,     Key_F12,
+                               ___,                    Key_LeftArrow,            Key_DownArrow,            Key_RightArrow,  Key_LeftCurlyBracket, Key_RightCurlyBracket,
+   Key_F13,                    Consumer_Mute,          Consumer_VolumeDecrement, Consumer_VolumeIncrement, ___,             Key_Backslash,        Key_Pipe,
+
    ___, ___, Key_Enter, ___,
    ___)
 ) // KEYMAPS(
